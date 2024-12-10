@@ -1,0 +1,8 @@
+CREATE TABLE Schedule (
+id INT AUTO_INCREMENT PRIMARY KEY,
+title VARCHAR(100) NOT NULL,
+date DATE NOT NULL,
+time TIME NOT NULL,
+description TEXT,
+password VARCHAR(255) NOT NULL
+);
